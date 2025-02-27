@@ -3,31 +3,31 @@
 
 
 const questions = [
-    { word: "odiwnw 🤔", hint: "You look through it 🧐", answer: "window ✅" },
-    { word: "vreweie 🤔", hint: "To check and correct work 🧐", answer: "review ✅" },
-    { word: "aedeadlin 🤔", hint: "Time limit for task completion 🧐", answer: "deadline ✅" },
-    { word: "jecpotr 🤔", hint: "Displays presentations 🧐", answer: "projector ✅" },
+    { word: "nodwwi 🤔", hint: "You look through it 🧐", answer: "window ✅" },
+    { word: "wireve 🤔", hint: "To check and correct work 🧐", answer: "review ✅" },
+    { word: "andeldie 🤔", hint: "Time limit for task completion 🧐", answer: "deadline ✅" },
+    { word: "ojectropr 🤔", hint: "Displays presentations 🧐", answer: "projector ✅" },
     { word: "apnl 🤔", hint: "An organized strategy for achieving goals 🧐", answer: "plan ✅" },
     { word: "lpeap 🤔", hint: "A fruit 🧐", answer: "apple ✅" },
     { word: "rood 🤔", hint: "A house entrance 🧐", answer: "door ✅" },
     { word: "eetingm 🤔", hint: "Scheduled discussions 🧐", answer: "meeting ✅" },
-    { word: "nioivselet 🤔", hint: "Entertainment device 🧐", answer: "television ✅" },
-    { word: "oesiprm 🤔", hint: "A commitment 🧐", answer: "promise ✅" },
+    { word: "nlisietevo 🤔", hint: "Entertainment device 🧐", answer: "television ✅" },
+    { word: "roipsme 🤔", hint: "A commitment 🧐", answer: "promise ✅" },
     { word: "edoc 🤔", hint: "Programmers write this 🧐", answer: "code ✅" },
-    { word: "draob 🤔", hint: "Used for writing 🧐", answer: "board ✅" },
-    { word: "dercalen 🤔", hint: "Tracks appointments 🧐", answer: "calendar ✅" },
-    { word: "efils 🤔", hint: "Holds documents 🧐", answer: "files ✅" },
-    { word: "kcans 🤔", hint: "A light meal 🧐", answer: "snack ✅" },
-    { word: "spkdeot 🤔", hint: "Computer on a desk 🧐", answer: "desktop ✅" },
+    { word: "odabr 🤔", hint: "Used for writing 🧐", answer: "board ✅" },
+    { word: "lrndcaea 🤔", hint: "Tracks appointments 🧐", answer: "calendar ✅" },
+    { word: "ilfes 🤔", hint: "Holds documents 🧐", answer: "files ✅" },
+    { word: "cknsa 🤔", hint: "A light meal 🧐", answer: "snack ✅" },
+    { word: "kpdesto 🤔", hint: "Computer on a desk 🧐", answer: "desktop ✅" },
     { word: "erif 🤔", hint: "Used for warmth 🧐", answer: "fire ✅" },
-    { word: "rtelcoieph 🤔", hint: "Flies in the air 🧐", answer: "helicopter ✅" },
-    { word: "aintrain 🤔", hint: "Learning new skills for the job 🧐", answer: "training ✅" },
+    { word: "tphelcoeri 🤔", hint: "Flies in the air 🧐", answer: "helicopter ✅" },
+    { word: "grintain 🤔", hint: "Learning new skills for the job 🧐", answer: "training ✅" },
     { word: "regrub 🤔", hint: "A fast food item 🧐", answer: "burger ✅" },
-    { word: "eamlim 🤔", hint: "Electronic messages 🧐", answer: "email ✅" },
-    { word: "eamttema 🤔", hint: "Working group members 🧐", answer: "teammates ✅" },
+    { word: "ealim 🤔", hint: "Electronic messages 🧐", answer: "email ✅" },
+    { word: "seamttema 🤔", hint: "Working group members 🧐", answer: "teammates ✅" },
     { word: "esrtses 🤔", hint: "Work pressure 🧐", answer: "stress ✅" },
     { word: "efocfe 🤔", hint: "Office fuel 🧐", answer: "coffee ✅" },
-    { word: "apyphap 🤔", hint: "How we are at the end of fika 🧐", answer: "happy ✅" }
+    { word: "ayphp 🤔", hint: "How we are at the end of fika 🧐", answer: "happy ✅" }
 ];
 
 let currentQuestion = 0;
