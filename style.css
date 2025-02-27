@@ -1,0 +1,86 @@
+body {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(204, 206, 171, 0.681), rgba(178, 172, 175, 0.845)), url('image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: #fef0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px rgba(29, 27, 27, 0.665);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+#startGame {
+    background: #4d4de9;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#questionBox {
+    background: linear-gradient(150deg, #f5e0e0, #ffffff, #d7c2c2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+#puzzle-line, #hint {
+    font-size: 1.2rem;
+   color:  #1a1201;
+   text-shadow: 1px 1px 1px #dfd8d8f5;
+}
+#revealBtn {
+    background: #4d4de9;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#answer {
+    color: #086927;
+    font-weight:600;
+
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background: #4d4de9;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(12, 12, 12, 0.2);
+}
+
+.hidden {
+    display: none;
+}
